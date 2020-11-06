@@ -23,6 +23,6 @@
       </include>
     </group>
     <!-- final twist output of localization -->
-    <node pkg="topic_tools" type="relay" name="relay" args="/localization/pose_twist_fusion_filter/twist /localization/twist" />
+    <node pkg="topic_tools" exec="relay" name="relay" args="/localization/pose_twist_fusion_filter/twist /localization/twist" />
   </group>
 </launch>
