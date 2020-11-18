@@ -7,3 +7,7 @@ repositories:
     type: git
     url: https://github.com/tier4/sensor_description.iv.universe.git
     version: ros2
+  dependencies/Pilot.Auto:
+    type: git
+    url: https://github.com/tier4/Pilot.Auto.git
+    version: ros2
