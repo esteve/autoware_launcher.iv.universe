@@ -31,7 +31,7 @@ jobs:
     - name: Build
       run: |
         . /opt/ros/foxy/setup.sh
-        colcon build --event-handlers console_cohesion+ --packages-select "*_launch"
+        colcon build --event-handlers console_cohesion+ --packages-up-to control_launch integration_launch localization_launch map_launch perception_launch planning_launch sensing_launch system_launch vehicle_launch
 
     - name: Run tests
       run: |
